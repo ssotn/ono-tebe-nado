@@ -73,14 +73,11 @@
             <button class="bet-button" type="button">Сделать ставку</button>
           </div>
       </section>
-      <section class="lots">
-        
+      <section class="lots">        
         <h2 class="lots__heading">Лоты</h2>
-        <ul class="lots__card-list">
-          
+        <ul class="lots__card-list">          
           <li class="lots__card-list-item">            
-            <a class="card-link" href="#0">
-              
+            <a class="card-link" href="#0">              
               <article class="card card_type_film">
                 <div class="overlay"></div>
                 <h3 class="card__title">Фильм режиссёра, который бросил киношколу</h3>
@@ -88,12 +85,10 @@
                   Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?
                 </p>
               </article>
-            </a>
-          
+            </a>          
           </li>        
           <li class="lots__card-list-item">
-            <a class="card-link" href="#0">
-              
+            <a class="card-link" href="#0">              
               <article class="card card_type_book">
                 <div class="overlay"></div>
                 <h3 class="card__title">Книга, где описан один скучный день из жизни рекламного агента</h3>
@@ -106,8 +101,7 @@
             </a>
           </li>
           <li class="lots__card-list-item">
-            <a class="card-link" href="#0">
-              
+            <a class="card-link" href="#0">              
               <article class="card card_type_picture">
                 <div class="overlay"></div>
                 <h3 class="card__title">Картина, которую повторит даже 5-летний сын маминой подруги</h3>
@@ -140,14 +134,16 @@
       </section>
     </main>
     <footer class="footer">
+      <!--Класс header... тут не уместен, так как элемент находится в блоке footer.(с) -->
+      <!--В задании просят переиспользовать блок адреса из хэдера. оставил класс header__link чтобы не дублировать код-->
       <address class="address">
         <a
-           class="footer__menu-link"
-           href="tel:+99995555555"
-           >+9 999 555 5555
+          class="header__link"
+          href="tel:+99995555555"
+          >+9 999 555 5555
         </a>
         <a
-           class="footer__menu-link"
+           class="header__link"
            href="mailto:info@sobaka.ge"
            >info@sobaka.ge
         </a>    
@@ -155,11 +151,11 @@
           наб. Принсенграхт 263-<br> 
           265, Амстердам
         </p>
-      </address>
+      </address> 
       <nav class="footer__menu">
         <ul class="footer__menu-list">
           <li>
-            <a class="footer__menu-link_active"
+            <a class="footer__menu-link footer__menu-link_active"
                >главная
             </a>
           </li>
