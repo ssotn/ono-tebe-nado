@@ -276,10 +276,6 @@
   align-items: stretch;
 }
 
-.about__column {
-  background: grey;
-}
-
 .about__logo {
   width: 240px;
   height: 240px;
@@ -314,7 +310,6 @@
   font-size: 20px;
   line-height: 24px;
   margin-bottom: 1em;
-
 }
 
 .footer {
@@ -337,10 +332,6 @@
   flex-direction: column;
   align-items: center;
   list-style-type: none;
-}
-
-.footer__menu-list-item {
-
 }
 
 .footer__menu-link {
